@@ -26,5 +26,5 @@ Projeto desenvolvido para a disciplina de **Desenvolvimento Back-end (2026)** - 
 
 1. **Clonar o Repositório:**
    ```bash
-   git clone [https://github.com/SEU_USUARIO/uninter-backend-franquias-api.git](https://github.com/SEU_USUARIO/uninter-backend-franquias-api.git)
-   cd uninter-backend-franquias-api
+   git clone [https://github.com/elnvna/backend-franquias-api.git](https://github.com/elnvna/backend-franquias-api.git)
+   cd backend-franquias-api
