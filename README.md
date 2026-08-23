@@ -28,3 +28,54 @@ Projeto desenvolvido para a disciplina de **Desenvolvimento Back-end (2026)** - 
    ```bash
    git clone [https://github.com/elnvna/backend-franquias-api.git](https://github.com/elnvna/backend-franquias-api.git)
    cd backend-franquias-api
+
+### Estrutura
+
+   Franquias.Api/
+├── Controllers/
+│   ├── AuthController.cs
+│   ├── ChamadosController.cs
+│   ├── EstoquesController.cs
+│   ├── ProdutosController.cs
+│   ├── RelatoriosController.cs
+│   ├── UnidadesController.cs
+│   └── VendasController.cs
+├── Data/
+│   ├── AppDbContext.cs
+│   └── SeedData.cs
+├── DTOs/
+│   ├── AuthDTOs.cs
+│   ├── ProdutoDTOs.cs
+│   ├── RelatorioDTOs.cs
+│   ├── UnidadeDTOs.cs
+│   └── VendaDTOs.cs
+├── Migrations/
+│   ├── 20260816162228_InitialCreate.cs
+│   ├── 20260816162228_InitialCreate.Designer.cs
+│   └── AppDbContextModelSnapshot.cs
+├── Models/
+│   ├── Categoria.cs
+│   ├── ChamadoSuporte.cs
+│   ├── Enums.cs
+│   ├── Estoque.cs
+│   ├── Fornecedor.cs
+│   ├── ItemVenda.cs
+│   ├── ProdutoServico.cs
+│   ├── Royalty.cs
+│   ├── UnidadeFranqueada.cs
+│   ├── Usuario.cs
+│   └── Venda.cs
+├── Properties/
+│   └── launchSettings.json
+├── Services/
+│   ├── AuthService.cs
+│   └── VendaService.cs
+├── .gitattributes
+├── .gitignore
+├── Program.cs
+├── README.md
+├── appsettings.json
+├── appsettings.Development.json
+├── Franquias.Api.csproj
+├── Franquias.Api.http
+└── Franquias.Api.slnx
