@@ -241,6 +241,14 @@ namespace Franquias.Api.Migrations
                     b.Property<bool>("Ativa")
                         .HasColumnType("boolean");
 
+                    b.Property<string>("Bairro")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("CEP")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("CNPJ")
                         .IsRequired()
                         .HasColumnType("text");
@@ -249,10 +257,22 @@ namespace Franquias.Api.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("Complemento")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("DataInicio")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("Logradouro")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("NomeFantasia")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Numero")
                         .IsRequired()
                         .HasColumnType("text");
 
